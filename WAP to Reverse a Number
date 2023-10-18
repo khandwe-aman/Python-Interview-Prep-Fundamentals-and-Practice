@@ -1,0 +1,14 @@
+Code-
+n = int(input("enter a number:"))
+print("number before being reversed is:",n)
+reverse = 0
+while n != 0:
+  last_digit = n%10
+  reverse = reverse*10 + last_digit
+  n = n//10
+print("after being reversed is:",reverse)
+Explanation-
+Here in this code first of all we are asking a user to give an input of any number n then we are defining a variable reverse to store future values of our reversed number. 
+Now after that we are applying a while loop for n not equal to zero or we can also apply it for n>0 in both case we will get same result. 
+Now in while loop we are first doing n%10 and storing it in last_digit which will give us unit place digit then we are adding the obtained digit to reverse by multiplying it by 10 bcz for next case we dont wanna add the next number to the first number we obtained instead we want to add the next number in unit place. 
+Now in order to get tens digit after we are done with unit digit we are doing n = n//10 so that we are now getting tens digit and this loop we run till we get the desired number.
