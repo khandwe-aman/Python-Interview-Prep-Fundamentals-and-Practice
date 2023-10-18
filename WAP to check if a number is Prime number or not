@@ -1,4 +1,4 @@
-**Code-**
+Code-
 n = int(input("enter any number:"))
 temp = 0
 for i in range(2,n//2):
@@ -10,7 +10,7 @@ if temp == 1:
 else:
   print(n,"is not a prime number")
 _______________________________________________________________________________________________________________________________________________________________________________
-**Explanation-**
+Explanation-
 Here first of all we are taking n which is the number to be checked as an input then we are defining two variables i.e i and temp. Then we are using a for and if loop to check 
 if the number entered i.e n is divisible by any number in range 2 to n//2 here we are taking the range from 2 bcz every number is divisible by 1 so we are starting our range 
 from 2 and running it till n//2 which gives us the quotient i.e maximum value till we will check. Then we apply a if condition to check n%i i.e if n is divisible by any number 
