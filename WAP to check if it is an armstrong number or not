@@ -13,19 +13,15 @@ else:
 ________________________________________________________________________________________________________________________________________________________________________________
 Explanation-
 Before going to logic part first lets understand what an armstrong number is-
-
 Armstrong number is a number which is equal to the sum of cube of its digits.
-
 For example- 153 is armstrong number bcz-
-
 1^3 = 1
-
 5^3 = 125
-
 3^3 = 27
-
 Now 1+125+27=153
 
-So here in this code also like every other code we will ask for an input from user and store it in n then we will define two variables sum to store the sum of cube of digits and org_n to store the original value of n. After that we will apply while loop for n>0 where just like our reversing the number code we will first find the individual digits using last_digit=n%10 and when we will add it to sum but by using pow function bcz we want the cube of individual digits then we will do n = n//10 to find tens hundred digit. After that we will check if sum == org_n if it is so then the number will be armstrong number else it is not an armstrong number.
-
+So here in this code also like every other code we will ask for an input from user and store it in n then we will define two variables sum to store the sum of cube of digits 
+and org_n to store the original value of n. After that we will apply while loop for n>0 where just like our reversing the number code we will first find the individual digits 
+using last_digit=n%10 and when we will add it to sum but by using pow function bcz we want the cube of individual digits then we will do n = n//10 to find tens hundred digit. 
+After that we will check if sum == org_n if it is so then the number will be armstrong number else it is not an armstrong number.
 Here we are using org_n bcz in while loop the value of n will get zero so we need to sotre the original value of n some where so we are storing it in org_n.
