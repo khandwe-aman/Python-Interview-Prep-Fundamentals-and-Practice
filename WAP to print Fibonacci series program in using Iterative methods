@@ -1,0 +1,27 @@
+Code-
+first,second=0,1
+n = int(input("please give a number for fibonacci series : "))
+print("fibonacci series are : ")
+for i in range(0,n):
+    if i<=1:
+        result=i
+    else:
+      result = first + second;
+      first = second;
+      second = result;
+    print(result)
+print('and the fibbonaci value of the number',n,'is',result)
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Before moving on to the logic part t=lets first talk about the fibonacci series. Fibonacci series is nothing but just the sum of previous two numbers. It starts with 0,1 and it goes on like-
+0
+1
+0+1 = 1
+1+1 = 2
+1+2 = 3
+2+3 = 5 and so on.....
+Now moving on to the logic part here we are first assigning two variables i.e first and second with value 0 and 1 and then we are asking form user the value of n for the number 
+till which he/she wants the fibonacci series. Then we are running a for loop for i in range 0 to n and in that we are using if else condition, if value of n is less than or 
+equal to 1 then we will get the result i itslef else result will be the sum of first and second term then we assign first term the value of second term and then find the next 
+second term and so on untill second term = result. After that we are simply returning two values one is series and another one is the value for that number. For getting the 
+series we are taking result inside the for loop and for value we are taking result outside the loop.
