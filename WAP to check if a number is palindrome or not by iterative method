@@ -1,0 +1,20 @@
+Code-
+n = int(input("enter any number:"))
+org_n = n
+reverse = 0
+while n!=0:
+  last_digit = n%10
+  reverse = reverse*10 + last_digit
+  n = n//10
+if org_n = reverse:
+  print(n,"is a palindrome")
+else:
+  print(n,"is not a palindrome")
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Before moving on to the logic part first understand what a palindrome is. Palindrome is a number which when reversed still remains the same for example- 121,1331,2332,1221 etc 
+are palindrome.
+Now lets talk baout the logical part of the code so here in this code for the first part we are doing the same thing what we did in reversing a number code i.e we are taking 
+the number dividing it on basis of digits and storing them. Then after there reversal is done we will be then applyng a if else condition to check if reversed number is equal to 
+original number or not if it is then entered number is a palindrome else it isn't.
+
