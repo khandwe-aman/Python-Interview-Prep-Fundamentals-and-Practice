@@ -1,0 +1,19 @@
+Code-
+n = int(input('please enter a number:'))
+def fibo(num):
+  if num == 0:
+    return 0
+  if num == 1:
+    return 1
+  else:
+    return fibo(num-1) + fibo(num-2)
+print('fibonacci series is:')
+for i in range (0,n):
+  print(fibo(i))
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+The logic for this case is also same the difference is just that instead of using iteration we are using recursive method in which we make a def function which can be called 
+any number of time we want. So here we are creating a def function named fibo(num) and then we are applying if else condition if num == 0 or 1 it will return 0 or 1 respectively 
+else it will return fibo(num-1)+fibo(num-2) which will do nothing but just keep recuring till num=0. After that inorder to get whole series we are applying a for loop in range 0 
+to n and printing fibo(i) for different values of i.
+
