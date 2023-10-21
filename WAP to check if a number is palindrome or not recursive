@@ -1,0 +1,21 @@
+Code-
+n = int(input("enter any number:"))
+def reverse(num):
+  if num < 10:
+      return num
+  else:
+      return int(str(n%10)+str(reverse(n//10)))
+def isPalindrome(num):
+  if num == reverse(num):
+      return 1
+  else:
+      return 0
+if isPalindrome(n) == 1:
+  print(n,'is a palindrome')
+else:
+  print(n,'is not a palindrome')
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Since we already know about what a palindrome is lets move on to logic part direrctly. As we know that in case of recursive codes we use def and create a function. So here in 
+this case we will be requiring two function one for reversing the number and second to check if the reversed digit number equal to the original number and then atlast we will 
+apply an if else condition to print if enterd number is palindrome or not.
