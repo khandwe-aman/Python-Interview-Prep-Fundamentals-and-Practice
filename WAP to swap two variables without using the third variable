@@ -1,0 +1,13 @@
+Code-
+a = int(input('please give value for a:'))
+b = int(input('please give value for b:'))
+a = a - b
+b = b + a
+a = b - a
+print('Value of a after swapping is:',a)
+print('Value of b after swapping is:',b)
+__________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code we are just swapping value of two variables without using a third variable for this we are firstly asking value of varable a and then value of variable b from 
+the user then we are assigning a value of a - b then we are assigning b value of b + a(mind that here the a is new a i.e we are just doing b + a -b so that b = a) and then 
+a = b - a(i.e b + a - a) so that we are getting a = b.
