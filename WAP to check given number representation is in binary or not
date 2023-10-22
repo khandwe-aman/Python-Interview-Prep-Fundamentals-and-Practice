@@ -1,0 +1,25 @@
+Code-
+num = int(input('enter any number:'))
+org_num = num
+while num!=0:
+  n = num%10
+  if n!=0 or n!=1:
+    print(org_num,'is not a binary representation')
+    break
+  num = num//10
+  if num == 0:
+    print(org_num,'is a binary representation')
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+alternative code using sets-
+num = int(input('enter any number:'))
+s = set{'0','1'}
+n_set = set(str(n))
+if n_set == s or n_set == 0 or n_set == 1:
+  print(num,'is a binary representation')
+else:
+  print(num,'is not a binary representation')
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code first of all we are asking for a number then we are creating a set of two integer which are stored as string then with the line n_set = set(str(n)) we are 
+converting the entered number into a set named n_set. Then we are using simple if else statement to check if n_set=s or 0 or 1 if it is then we will print that entred number 
+is binary number else it is not.
