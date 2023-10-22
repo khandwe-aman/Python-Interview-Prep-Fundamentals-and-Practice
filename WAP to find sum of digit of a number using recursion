@@ -1,0 +1,13 @@
+Code-
+n = int(input('enter any number:'))
+org_n = n
+sum = 0
+while n!=0:
+  last_digit = n%10
+  sum = sum + last_digit
+  n = n//10
+print(sum,'is the sum of the digits of the number',org_n)
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code we are doing nothing new we are doing the same thing which we did in armstrong number code and reversing the number code i.e we are spliting the number digit 
+by diigt and then adding the number.
