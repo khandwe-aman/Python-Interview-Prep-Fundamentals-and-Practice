@@ -1,0 +1,12 @@
+Code-
+a = int(input('enter value for a:'))
+b = int(input('enter value for b:'))
+temp = a
+a = b
+b = temp
+print('value of a after swapping',a)
+print('value of b after swapping',b)
+__________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code we are just swapping value of two variables without using a third variable for this we are firstly asking value of varable a and then value of variable b from 
+the user then we are assigning the value of a to temp variable then we are assigning the value of b to a and then at last we are assigning the vlaue of temp to b.
