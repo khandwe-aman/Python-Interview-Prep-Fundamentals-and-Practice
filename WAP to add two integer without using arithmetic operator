@@ -1,0 +1,16 @@
+Code-
+a = int(input('enter value for a:'))
+b = int(input('enter value for b:'))
+org_a = a
+org_b = b
+while b!=0:
+  carry = a&b
+  a = a^b
+  b = carry<<1
+print('the sum of',org_a,'and',org_b,'is:',a)
+________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code since we aren't allowed to use arithmetic operators to add so we will be using bitwise operators to add two digits for this we will require XOR(^) as it can 
+be used to add two binary numbers but only XOR will not help us to get the desired result for this we will also require AND(&) to get carry bcz in some case we will also get 
+some carry while adding.
+watch this video to get clear idea https://www.youtube.com/watch?v=N3dtzMKJMn8
