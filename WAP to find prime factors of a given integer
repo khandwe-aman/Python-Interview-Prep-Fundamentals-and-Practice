@@ -1,0 +1,35 @@
+Code-
+x = int(input('enter any number:'))
+org_x = x
+divisor = 2
+prime_fact = []
+while divisor <= x:
+  if x%divisor == 0:
+    prime_fact.append(divisor)
+    x = x//divisor
+  else:
+    divisor = divisor + 1
+  prime_fact = list(set(prime_fact))
+print('prime factors of the number',org_X,'are:',prime_fact)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+def prime_factor(x):
+  org_x = x
+  divisor = 2
+  prime_factor = []
+  while divisor <=2:
+    if x%divisor == 0:
+      prime_factor.append(divisor)
+      x = x//divisor
+    else:
+      divisor = divisor + 1
+    prime_factor = list(set(prime_factor))
+  return print('prime factors of the number',org_X,'are:',prime_factor)
+______________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code first of all we are storing the input value from the user in a variable org_x then we are defining a list named prime_factor whihc will store the values of 
+prime factor and then we are defining another varaible divisor and assigning it the value 2. Then we are applying a while loop for the condition divisor <= x bcz we all the 
+greatest divisor of a number is itself, then we are applying an if else condition where if x % divisor == 0 i.e if the number entered is divisible by 2 then we will append 
+it to the list of prime_factor by doing prime_factor.append(divisor) and then we will do x = x//divisor so that the obtained divisor will be removed from the no. else we will 
+increase the divisor by 1. Then inorder to remove duplicate values from the list we are applying prime_factor = list(set(prime_factor)) this will first convert the obtained 
+list of prime_factors into a set due to which all the dupicate values will be removed and then again we are converting them into list.And then at last we are returing a print 
+statement as shown in the code.
