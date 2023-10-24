@@ -1,0 +1,19 @@
+Code-
+n = int(input('Enter the number: '))
+factorial = 1
+if n<0:
+  print('Factorial of negative number is not possible')
+else:
+  for i in range(1,n+1):
+    factorial = factorial*i
+  print('Factorial of',n,'is:',factorial)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        return n*factorial(n-1)
+_________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code firstly as usual we are asking for a number form the user whose factorial is to be calculated. Then we are defining a variable factorial =1. Then we are using 
+if else condition in case a user enters a negative value else we are using a for loop in range 1 to n+1 and we are calculating factorial = factorial*i
