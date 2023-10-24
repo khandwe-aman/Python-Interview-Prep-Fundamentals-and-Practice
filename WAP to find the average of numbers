@@ -1,0 +1,13 @@
+Code-
+size = int(input('please enter the number of elements you want in array: '))
+arr = []
+for i in range (0,size):
+  x = int(input('please enter the value for index '+str(i)+' : '))
+  arr.append(x)
+avg = sum(arr)/size
+print('Average of the array elements is',avg)
+__________________________________________________________________________________________________________________________________________________________________________________
+Explanation-
+Here in this code we are first asking the user (size)to enter the number of elements they want in array or we can say that the number of elements of which they want avg to be 
+found out. Then we are defining an empty array named arr. After that we are applying a for loop in range (0, size) then we are asking the user to enter the value for each index 
+and then we are appending that value into the array, arr. Then we exit from the loop and find the avg by doing sum of arr and dividing it by the size of array
